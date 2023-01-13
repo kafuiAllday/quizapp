@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="QuizApp.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+
+        <h1>QuizApp</h1>
+        <div class="quiz_container" id="quiz">
+            <div class="quiz_header">
+                <h2>question text</h2>
+                <ul>
+                    <li>
+                        <input type='radio' name="ans" id="a" class="answers">
+                        <label for="a" id='a_text' >option</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="ans" id="b" class="answers">
+                        <label for="b" id='b_text' >option</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="ans" id="c" class="answers">
+                        <label for="c" id='c_text' >option</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="ans" id="d" class="answers">
+                        <label for="d" id='d_text' >option</label>
+                    </li>
+                </ul>
+            </div>
+            
+            <button onclick="nextQxn()">Submit</button>
+        </div>
+    </main>
+    
+    <script src="QuizApp.js"></script>
+</body>
+</html>
